@@ -6,6 +6,7 @@ struct CardView: View {
         VStack(alignment: .leading) {
             Text(scrum.title)
                 .font(.headline)
+                .accessibilityIdentifier("scrum-\(scrum.title)".lowercased().replacingOccurrences(of: " ", with: ""))
             Spacer()
             HStack {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")

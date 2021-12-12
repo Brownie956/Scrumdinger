@@ -28,6 +28,7 @@ struct EditView: View {
                 }
                 HStack {
                     TextField("New Attendee", text: $newAttendee)
+                        .accessibilityIdentifier("new-attendee-text-field")
                     Button(action: {
                         withAnimation {
                             scrumData.attendees.append(newAttendee)
@@ -36,6 +37,7 @@ struct EditView: View {
                     }) {
                         Image(systemName: "plus.circle.fill")
                             .accessibilityLabel(Text("Add attendee"))
+                            .accessibilityIdentifier("add-attendee")
                     }
                     .disabled(newAttendee.isEmpty)
                 }

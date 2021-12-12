@@ -32,6 +32,7 @@ struct DetailView: View {
                     Label(attendee, systemImage: "person")
                         .accessibilityLabel(Text("Person"))
                         .accessibilityValue(Text(attendee))
+                        .accessibilityIdentifier("attendee-\(attendee)".lowercased().replacingOccurrences(of: " ", with: ""))
                 }
             }
             Section(header: Text("History")) {

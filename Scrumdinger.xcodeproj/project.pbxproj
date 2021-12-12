@@ -31,6 +31,7 @@
 		A1DF5059272DC5EB008E2A87 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF5058272DC5EB008E2A87 /* ScrumData.swift */; };
 		A1DF505B272DD2C7008E2A87 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF505A272DD2C7008E2A87 /* MeetingTimerView.swift */; };
 		A1DF505D272DDC5B008E2A87 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF505C272DDC5B008E2A87 /* SpeechRecognizer.swift */; };
+		A1E37B2E27669FD300B9EBD0 /* ExampleScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E37B2D27669FD300B9EBD0 /* ExampleScrumdingerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		A1DF5058272DC5EB008E2A87 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		A1DF505A272DD2C7008E2A87 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		A1DF505C272DDC5B008E2A87 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		A1E37B2D27669FD300B9EBD0 /* ExampleScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScrumdingerUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			children = (
 				A1DF502C272D4EB1008E2A87 /* ScrumdingerUITests.swift */,
 				A1DF502E272D4EB1008E2A87 /* ScrumdingerUITestsLaunchTests.swift */,
+				A1E37B2D27669FD300B9EBD0 /* ExampleScrumdingerUITests.swift */,
 			);
 			path = ScrumdingerUITests;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E37B2E27669FD300B9EBD0 /* ExampleScrumdingerUITests.swift in Sources */,
 				A1DF502F272D4EB1008E2A87 /* ScrumdingerUITestsLaunchTests.swift in Sources */,
 				A1DF502D272D4EB1008E2A87 /* ScrumdingerUITests.swift in Sources */,
 			);
